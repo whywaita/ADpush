@@ -1,3 +1,7 @@
 #!/bin/sh
 
-ln -s $HOME/AD2014/shell/start.sh $HOME/AD2014
+nowpoint=`pwd`
+backpoint=`pwd | xargs dirname`
+
+
+ln -s $nowpoint/start.sh $backpoint/start.sh

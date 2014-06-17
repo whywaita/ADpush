@@ -29,9 +29,9 @@ sed -i "${wcnum}a   \*\/" $scriptfile
 tr -d '' < $scriptfile > $scriptfile2
 
 # 感想を読み取る
-echo "感想を入力してください"
-echo -n "感想:"
-read comment
+# echo "感想を入力してください"
+# echo -n "感想:"
+# read comment
 
 # 一番頭に書く物を入力
 sed -i "1i /* \\" $1

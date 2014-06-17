@@ -23,7 +23,9 @@ user@sol $ exit
 exit
 スクリプトを終了しました、ファイルは tmp です
 
-user@sol $ ./last.sh kadai?-?.c ここに感想を書きます
+user@sol $ ./last.sh kadai?-?.c
+感想を入力してください
+感想:良かった。
 ```
 
 最後にソースコードがcatされたら成功です。  

@@ -1,6 +1,7 @@
 #!/bin/sh
 
 DATE=`date +%Y%m%d`
+nowpoint=`pwd`
 
 mkdir $DATE
-ln -s $HOME/AD2014/shell/last.sh $HOME/AD2014/$DATE/
+ln -s $nowpoint/ADpush/last.sh $nowpoint/$DATE/

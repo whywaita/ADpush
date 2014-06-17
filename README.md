@@ -19,7 +19,7 @@ user@sol $ exit
 exit
 スクリプトを終了しました、ファイルは tmp です
 
-user@sol $ ./last.sh kadai?-?.c
+user@sol $ ./last.sh kadai?-?.c 良かった。
 ```
 
 最後にソースコードがcatされたら成功です。  
